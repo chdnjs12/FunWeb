@@ -2,16 +2,20 @@
 /* @import url(main.css); */
 
 /* 초기화 */
-body, h1, h2, h3, h4, h5, h6, p, ul, dl, dd {
+body, h1, h2, h3, h4, h5, h6, p, ul, dl, dd, figure, th, td, fieldset, input {
     margin: 0;
     padding: 0;
 }
+/* 초기화 값에 figure 추가(띄워지는 공간이 있기 때문에) */
+table { border-collapse: collapse; }
+fieldset, img { border: 0;}
 li { list-style: none; }
 a { text-decoration: none; }
 address { font-style: normal; }
 hr { display: none; }
 .hidden { position: absolute; left: -9999px; }
 
+/* 웹폰트 segoeui */
 @font-face {
     font-family: segoeui;
     src: url(../font/segoeui.eot),
@@ -20,6 +24,7 @@ hr { display: none; }
 }
 
 body {
+    min-width: 1000px;
     font-family: "Segoe UI", segoeui, sans-serif;
 }
 /* 헤더 */
