@@ -140,7 +140,6 @@
 #notice thead th.date { width: 72px; }
 #notice thead th.read { width: 56px; border-radius: 0 5px 5px 0; }
 
-#notice tbody {  }
 #notice tbody td {
     padding: 5px 0; text-align: center; 
     border-bottom: 1px solid #ccc;
